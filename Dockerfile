@@ -1,7 +1,7 @@
 FROM unvt/nanban:latest
 WORKDIR /root
 
-  RUN git clone https://github.com/ubukawa/12-produce-un1 &&\
+  RUN git clone https://github.com/ubukawa/12-produce-un2 &&\
 #    git clone https://github.com/hfu/openmaptiles-fonts &&\
 #    git clone https://github.com/mapbox/mapbox-gl-js &&\
 #  cd mapbox-gl-js &&\
@@ -9,7 +9,7 @@ WORKDIR /root
 #  npm run build-prod-min &&\
 #  npm run build-css &&\
 #  cd .. &&\
-  cd 12-produce-un1 &&\
+  cd 12-produce-un2 &&\
   npm install &&\
   yarn &&\
 #    cd .. &&\
